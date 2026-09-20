@@ -21,4 +21,4 @@ Kurze fiktive Zusammenfassung.
 - ⚠️ offen: Beispielangabe ergänzen.
 ```
 
-Keine echten Personen-, Objekt-, Vertrags- oder Kontodaten in dieses öffentliche Repository eintragen.
+Keine echten Personen-, Objekt-, Vertrags- oder Kontodaten in dieses Demo-Repository eintragen.
