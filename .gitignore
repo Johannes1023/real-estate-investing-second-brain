@@ -2,6 +2,8 @@
 .DS_Store
 .obsidian/
 .env*
+__pycache__/
+*.pyc
 *.pdf
 *.jpg
 *.jpeg
@@ -11,5 +13,8 @@
 *.docx
 *.xlsx
 private/
+local_only/
+no_ai/
+cloud_exports/
 originals/
 backups/

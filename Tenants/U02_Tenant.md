@@ -2,6 +2,7 @@
 object: U02
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 ---
 # U02 tenant group

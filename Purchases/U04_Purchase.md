@@ -2,6 +2,7 @@
 object: U04
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 ---
 # U04 purchase summary

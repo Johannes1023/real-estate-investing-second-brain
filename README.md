@@ -16,6 +16,8 @@ The example uses unit IDs `U01` through `U07` in one imaginary building (`BUILDI
 | [_hot.md](_hot.md) | Compact current snapshot and next actions |
 | [_index.md](_index.md) | Question routing, unit overview, and links to every topic note |
 | [Deadlines.md](Deadlines.md) | Example deadlines collected from note metadata |
+| [AI_ACCESS.md](AI_ACCESS.md) | Data classes and separate local/cloud AI workflows |
+| [scripts/build_cloud_view.py](scripts/build_cloud_view.py) | Creates a fresh cloud-readable copy containing only `cloud_ok` notes |
 | 15 topic folders | Completed synthetic notes plus a category-specific `_template.md` |
 
 Every topic note has YAML metadata, a title, a short `Summary`, and relevant fields. For example:
@@ -25,13 +27,14 @@ Every topic note has YAML metadata, a title, a short `Summary`, and relevant fie
 object: U02
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 deadlines:
   - "2027-01-15 | Check completed faucet repair"
 ---
 ```
 
-`status` can be `open`, `current`, or `outdated`. `source` is a short pointer, never an embedded original document. `deadlines` is optional. Unit notes start with their ID, such as `U01_Lease.md`; shared building notes start with `BUILDING_`.
+`status` can be `open`, `current`, or `outdated`. `ai_access` is `cloud_ok`, `local_only`, or `no_ai`; a missing value is treated as denied. `source` is a short pointer, never an embedded original document. `deadlines` is optional. Unit notes start with their ID, such as `U01_Lease.md`; shared building notes start with `BUILDING_`.
 
 ## What the filled example covers
 
@@ -55,10 +58,22 @@ Try these questions with an assistant pointed at this folder:
 
 These are instructions for the AI assistant, not executable scripts. Changes made by hand are welcome; run `Update` afterward. Dates in `Deadlines.md` are a snapshot and do not send notifications.
 
+## Local AI and cloud AI
+
+A fully local AI or LLM may read **and edit** sensitive `local_only` notes in a private working copy, provided its inference, logs, retrieval, and tools really stay local. A cloud API must receive only `cloud_ok` material. `no_ai` material is kept outside every AI-connected folder. Restricted notes and their indexes, deadlines, and activity summaries live under the Git-ignored `local_only/` directory; root overviews remain cloud-safe. All notes committed to this demo are synthetic and marked `cloud_ok`.
+
+Use **separate workspaces and sessions**: connect a local assistant to the private working copy, and connect a cloud assistant only to a fresh export. With Python 3.10 or newer, the exporter selects only notes explicitly marked `cloud_ok`, builds a new cloud-safe index and deadline list, and rejects missing classifications or links to excluded notes:
+
+```bash
+python3 scripts/build_cloud_view.py --source /path/to/private-working-copy --output /path/to/new-cloud-view
+```
+
+The output folder must be new and outside the private source folder. Review it before sending it to a cloud provider. Classification is a routing rule, **not** encryption or a guarantee that text marked `cloud_ok` contains no sensitive facts. See [AI_ACCESS.md](AI_ACCESS.md) for the full policy and a worked local-only example.
+
 ## Reuse it safely
 
 1. On GitHub, choose **Use this template** to create your own repository, or copy the structure into a **separate private working folder**. Keep this repository as a synthetic reference. Choose private visibility for real working data.
-2. Replace every synthetic ID and value in the private copy, or remove example notes and start from the category templates. Review `AGENTS.md` there and adapt its demo-only rules to your own privacy policy.
+2. Replace every synthetic ID and value in the private copy, or remove example notes and start from the category templates. Review `AGENTS.md` there and adapt its demo-only rules to your own privacy policy. Classify each note before either AI reads it.
 3. Store original contracts, scans, photos, IDs, account details, and contact information outside the AI-readable folder. Use private document references instead of embedding originals.
 4. Review what your AI provider may receive before connecting a folder. Avoid simultaneous edits to the same note; `Update` checks for conflict copies.
 5. Run `Update` after edits and `Monthly review` when you want to check aging facts. Check real deadlines and legal requirements against current local rules and your own documents.

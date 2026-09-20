@@ -2,6 +2,7 @@
 object: U03
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 deadlines:
   - "2029-04-30 | Review fictional fixed-rate expiry for U03"

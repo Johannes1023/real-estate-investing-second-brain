@@ -2,6 +2,7 @@
 object: BUILDING
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 deadlines:
   - "2027-06-01 | Review fictional building insurance renewal"

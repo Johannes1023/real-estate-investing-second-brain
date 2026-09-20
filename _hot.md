@@ -6,6 +6,7 @@ Snapshot date: 2026-09-20. Every fact below is synthetic.
 
 - The example now covers seven units, two landlord roles, and all 15 topic categories.
 - Unit profiles, tenant groups, leases, purchases, and 2025 operating-cost notes are complete.
+- All live demo notes are `cloud_ok`; a verified local AI may also edit separate `local_only` notes in a private copy. See [AI_ACCESS.md](AI_ACCESS.md).
 
 ## Next example actions
 

@@ -4,7 +4,7 @@ Purpose: Document map and topics without a dedicated category. This guide is **n
 
 ## Completed synthetic example
 
-Read [BUILDING_DocumentMap.md](BUILDING_DocumentMap.md) for a fully populated note in this category. Copy its structure into a separate private working folder and replace every synthetic field with a verified fact. Keep source originals outside the AI-readable folder.
+Read [BUILDING_DocumentMap.md](BUILDING_DocumentMap.md) for a fully populated note in this category. Copy its structure into a separate private working folder and replace every synthetic field with a verified fact. Classify the new note before use: keep real `local_only` notes under `local_only/`, and use `cloud_ok` only after a person approves cloud processing. Keep source originals outside the AI-readable folder.
 
 ## Required structure
 
@@ -13,6 +13,7 @@ Read [BUILDING_DocumentMap.md](BUILDING_DocumentMap.md) for a fully populated no
 object: U01
 as_of: 2026-09-20
 status: current
+ai_access: local_only
 source: Synthetic example
 ---
 ```

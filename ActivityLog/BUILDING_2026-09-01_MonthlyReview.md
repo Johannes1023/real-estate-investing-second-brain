@@ -2,6 +2,7 @@
 object: BUILDING
 as_of: 2026-09-01
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 ---
 # Example monthly review log

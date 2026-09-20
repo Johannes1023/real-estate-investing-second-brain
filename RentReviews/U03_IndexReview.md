@@ -2,6 +2,7 @@
 object: U03
 as_of: 2026-09-20
 status: current
+ai_access: cloud_ok
 source: Synthetic example
 deadlines:
   - "2027-03-15 | Review U03 proposed index-rent calculation"
