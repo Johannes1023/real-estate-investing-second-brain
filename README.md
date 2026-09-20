@@ -1,6 +1,6 @@
 # Vermietung Second Brain: fiktives Beispiel für sieben Wohnungen
 
-Dieses Repository zeigt ein Markdown-basiertes Second Brain für **sieben fiktive Wohnungen**, die **zwei Personen** gemeinsam verwalten. Sämtliche Kennungen, Flächen, Beträge, Termine und Vorgänge sind frei erfundene Beispieldaten. Es enthält keine echten Adressen, Personennamen, Kontaktdaten, Verträge oder Dokumente.
+Dieses Repository zeigt ein Markdown-basiertes Second Brain für **sieben fiktive Wohnungen**, die **zwei Personen** gemeinsam vermieten und verwalten. Sämtliche Kennungen, Flächen, Beträge, Termine und Vorgänge sind frei erfundene Beispieldaten. Es enthält keine echten Adressen, Personennamen, Kontaktdaten, Verträge oder Dokumente.
 
 ## Idee
 
@@ -55,6 +55,6 @@ Der AI-Client führt diese Abläufe anhand von `AGENTS.md` aus. Es gibt keinen H
 
 Beide Vermietungspersonen verwenden dieselbe Ordnerstruktur und dieselben Regeln. Gleichzeitige Änderungen an derselben Datei sollten vermieden werden; Konfliktkopien werden beim `Update` gemeldet. Originalverträge, Scans, Fotos, Ausweisdaten, Konto- und Vertragsnummern, E-Mail-Adressen und Telefonnummern gehören nicht in dieses Beispiel. `quelle:` verweist in einem echten, **separat und privat** geführten Arbeitsbestand nur auf den eigenen Ablageort, ohne Dateien oder Zugänge zu veröffentlichen.
 
-Für die praktische Nutzung sollte ein **neuer privater Ordner** aus der Struktur entstehen. Dieses Demo-Repository bleibt ein reines Demo-Repository. Vor jedem Commit die Änderungen und die Git-Historie auf echte Daten prüfen; `.gitignore` allein verhindert nicht, dass sensible Markdown-Texte versehentlich veröffentlicht werden.
+Für die praktische Nutzung sollte ein **neuer privater Ordner** aus der Struktur entstehen. Dieses Repository bleibt eine reine Demo. Vor jedem Commit die Änderungen und die Git-Historie auf echte Daten prüfen; `.gitignore` allein verhindert nicht, dass sensible Markdown-Texte versehentlich veröffentlicht werden.
 
 Die Beispiele sind keine Rechts-, Steuer- oder Finanzberatung. Fristen und Vertragsklauseln müssen für reale Fälle anhand aktueller Unterlagen und Regeln geprüft werden. Steuerunterlagen und Buchhaltung sind hier bewusst nicht Teil des Konzepts.
