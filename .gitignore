@@ -1,0 +1,16 @@
+# Lokale Arbeitsdaten und typische Anhänge dürfen nicht ins Beispiel-Repository.
+.DS_Store
+.obsidian/
+.env*
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.zip
+*.docx
+*.xlsx
+private/
+privat/
+originale/
+backups/
