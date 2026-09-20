@@ -1,3 +1,3 @@
 @AGENTS.md
 
-Für diesen Beispielordner gelten ausschließlich die Regeln in `AGENTS.md`.
+Use the shared project rules in `AGENTS.md` for this synthetic repository.

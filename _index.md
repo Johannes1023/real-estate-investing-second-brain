@@ -1,72 +1,91 @@
-# Index der fiktiven Beispielnotizen
+# Index
 
-Alle Werte sind frei erfunden.
+All values and identities in this repository are synthetic.
 
 ## Routing
 
-| Frage | Ordner |
+| Question topic | Folder |
 |---|---|
-| Objektdaten und Ausstattung | `Objekte/` |
-| Belegung und Mietpartei | `Mieter/` |
-| Miete, Kaution und Klauseln | `Mietvertraege/` |
-| Indexanpassung | `Indexmieterhoehungen/` |
-| Betriebskosten | `Nebenkostenabrechnungen/` |
-| Erwerb | `Kaufvertraege/` |
-| Finanzierung | `Kreditvertraege/` |
-| Verwaltung und Beschlüsse | `WEG_Hausverwaltung/` |
-| Mangel oder Reparatur | `Reparaturen/` |
-| Versicherung | `Versicherungen/` |
-| Einzug oder Auszug | `Uebergaben/` |
-| Zuständigkeit | `Kontakte/` |
-| Ablauf oder Checkliste | `Prozesse/` |
-| Entscheidung oder Review | `Log/` |
-| Sonstiges | `Sonstiges/` |
+| Unit and building facts | `Properties/` |
+| Tenant-group context | `Tenants/` |
+| Rent and lease terms | `Leases/` |
+| Proposed rent adjustment | `RentReviews/` |
+| Annual cost reconciliation | `OperatingCosts/` |
+| Acquisition | `Purchases/` |
+| Financing | `Loans/` |
+| Building charges and decisions | `BuildingManagement/` |
+| Maintenance issue | `Repairs/` |
+| Policy and renewal | `Insurance/` |
+| Move-in or move-out | `Handovers/` |
+| Responsibility and vendor role | `Contacts/` |
+| Reusable procedure | `Playbooks/` |
+| Review or decision history | `ActivityLog/` |
+| Document categories and other topics | `Miscellaneous/` |
 
-## Wohnungsübersicht
+## Seven-unit overview
 
-| Wohnung | Lage im fiktiven Haus | Fläche | Zimmer | Beispiel-Kaltmiete |
-|---|---|---:|---:|---:|
-| W01 | Erdgeschoss | 38 m² | 1 | 640 EUR |
-| W02 | Erdgeschoss | 46 m² | 2 | 750 EUR |
-| W03 | 1. Obergeschoss | 52 m² | 2 | 830 EUR |
-| W04 | 1. Obergeschoss | 59 m² | 3 | 960 EUR |
-| W05 | 2. Obergeschoss | 63 m² | 3 | 1050 EUR |
-| W06 | 2. Obergeschoss | 71 m² | 3 | 1180 EUR |
-| W07 | 3. Obergeschoss | 84 m² | 4 | 1320 EUR |
+| Unit | Floor | Area | Rooms | Current synthetic base rent | Landlord roles |
+|---|---|---:|---:|---:|---|
+| U01 | Ground floor | 38 m² | 1 | 640 EUR/month | A and B |
+| U02 | Ground floor | 46 m² | 2 | 750 EUR/month | A and B |
+| U03 | First floor | 52 m² | 2 | 830 EUR/month | A and B |
+| U04 | First floor | 59 m² | 3 | 960 EUR/month | A and B |
+| U05 | Second floor | 63 m² | 3 | 1,050 EUR/month | A and B |
+| U06 | Second floor | 71 m² | 3 | 1,180 EUR/month | A and B |
+| U07 | Third floor | 84 m² | 4 | 1,320 EUR/month | A and B |
 
-Die Wohnungen werden in diesem Beispiel von Person A und Person B gemeinsam verwaltet.
+## All notes
 
-## Alle Notizen
-
-| Notiz | Objekt | Status | Kurzfassung |
+| Note | Object | Status | Summary |
 |---|---|---|---|
-| [W03 Indexpruefung](Indexmieterhoehungen/W03_Indexpruefung.md) | W03 | offen | Für W03 ist eine fiktive Prüfung einer möglichen Indexanpassung vorgemerkt. |
-| [HAUS Rollen](Kontakte/HAUS_Rollen.md) | HAUS | aktuell | Die Demo führt nur Zuständigkeiten, keine Personen oder Kontaktdaten. |
-| [HAUS 2026-09-20 Demoaufbau](Log/HAUS_2026-09-20_Demoaufbau.md) | HAUS | aktuell | Fiktives Protokoll zur Anlage dieses Beispieldatensatzes. |
-| [W01 Mietpartei](Mieter/W01_Mietpartei.md) | W01 | aktuell | Für W01 ist nur die neutrale Beispielkennung „Mietpartei W01“ hinterlegt. |
-| [W02 Mietpartei](Mieter/W02_Mietpartei.md) | W02 | aktuell | Für W02 ist nur die neutrale Beispielkennung „Mietpartei W02“ hinterlegt. |
-| [W03 Mietpartei](Mieter/W03_Mietpartei.md) | W03 | aktuell | Für W03 ist nur die neutrale Beispielkennung „Mietpartei W03“ hinterlegt. |
-| [W04 Mietpartei](Mieter/W04_Mietpartei.md) | W04 | aktuell | Für W04 ist nur die neutrale Beispielkennung „Mietpartei W04“ hinterlegt. |
-| [W05 Mietpartei](Mieter/W05_Mietpartei.md) | W05 | aktuell | Für W05 ist nur die neutrale Beispielkennung „Mietpartei W05“ hinterlegt. |
-| [W06 Mietpartei](Mieter/W06_Mietpartei.md) | W06 | aktuell | Für W06 ist nur die neutrale Beispielkennung „Mietpartei W06“ hinterlegt. |
-| [W07 Mietpartei](Mieter/W07_Mietpartei.md) | W07 | aktuell | Für W07 ist nur die neutrale Beispielkennung „Mietpartei W07“ hinterlegt. |
-| [W01 Mietvertrag](Mietvertraege/W01_Mietvertrag.md) | W01 | aktuell | Der fiktive Vertrag für W01 nennt 640 EUR Kaltmiete und 110 EUR Vorauszahlung. |
-| [W02 Mietvertrag](Mietvertraege/W02_Mietvertrag.md) | W02 | aktuell | Der fiktive Vertrag für W02 nennt 750 EUR Kaltmiete und 130 EUR Vorauszahlung. |
-| [W03 Mietvertrag](Mietvertraege/W03_Mietvertrag.md) | W03 | aktuell | Der fiktive Vertrag für W03 nennt 830 EUR Kaltmiete und 145 EUR Vorauszahlung. |
-| [W04 Mietvertrag](Mietvertraege/W04_Mietvertrag.md) | W04 | aktuell | Der fiktive Vertrag für W04 nennt 960 EUR Kaltmiete und 160 EUR Vorauszahlung. |
-| [W05 Mietvertrag](Mietvertraege/W05_Mietvertrag.md) | W05 | aktuell | Der fiktive Vertrag für W05 nennt 1050 EUR Kaltmiete und 175 EUR Vorauszahlung. |
-| [W06 Mietvertrag](Mietvertraege/W06_Mietvertrag.md) | W06 | aktuell | Der fiktive Vertrag für W06 nennt 1180 EUR Kaltmiete und 190 EUR Vorauszahlung. |
-| [W07 Mietvertrag](Mietvertraege/W07_Mietvertrag.md) | W07 | aktuell | Der fiktive Vertrag für W07 nennt 1320 EUR Kaltmiete und 220 EUR Vorauszahlung. |
-| [W01 NK 2025](Nebenkostenabrechnungen/W01_NK_2025.md) | W01 | aktuell | Beispiel einer abgeschlossenen Betriebskostenübersicht für W01 und das Musterjahr 2025. |
-| [W01 Steckbrief](Objekte/W01_Steckbrief.md) | W01 | aktuell | W01 ist eine fiktive 1-Zimmer-Wohnung mit 38 m². |
-| [W02 Steckbrief](Objekte/W02_Steckbrief.md) | W02 | aktuell | W02 ist eine fiktive 2-Zimmer-Wohnung mit 46 m². |
-| [W03 Steckbrief](Objekte/W03_Steckbrief.md) | W03 | aktuell | W03 ist eine fiktive 2-Zimmer-Wohnung mit 52 m². |
-| [W04 Steckbrief](Objekte/W04_Steckbrief.md) | W04 | aktuell | W04 ist eine fiktive 3-Zimmer-Wohnung mit 59 m². |
-| [W05 Steckbrief](Objekte/W05_Steckbrief.md) | W05 | aktuell | W05 ist eine fiktive 3-Zimmer-Wohnung mit 63 m². |
-| [W06 Steckbrief](Objekte/W06_Steckbrief.md) | W06 | aktuell | W06 ist eine fiktive 3-Zimmer-Wohnung mit 71 m². |
-| [W07 Steckbrief](Objekte/W07_Steckbrief.md) | W07 | aktuell | W07 ist eine fiktive 4-Zimmer-Wohnung mit 84 m². |
-| [HAUS Mieterwechsel](Prozesse/HAUS_Mieterwechsel.md) | HAUS | aktuell | Fiktive Checkliste für einen Mieterwechsel in einer der sieben Wohnungen. |
-| [W02 Armatur](Reparaturen/W02_Armatur.md) | W02 | offen | Fiktive Armatur-Reparatur in W02; eine Nachkontrolle ist als Beispieltermin erfasst. |
-| [W05 Uebergabe](Uebergaben/W05_Uebergabe.md) | W05 | aktuell | Muster für eine Übergabenotiz ohne echte Zählerstände oder Fotos. |
-| [HAUS Versicherung](Versicherungen/HAUS_Versicherung.md) | HAUS | offen | Die fiktive Gebäudeversicherung wird ohne Anbieter, Nummer oder Betrag beschrieben. |
-| [HAUS Verwaltung](WEG_Hausverwaltung/HAUS_Verwaltung.md) | HAUS | aktuell | Die fiktive Hausverwaltung wird nur als Funktion bezeichnet. |
+| [BUILDING 2026-09-01 MonthlyReview](ActivityLog/BUILDING_2026-09-01_MonthlyReview.md) | BUILDING | current | The fictional review confirmed seven lease amounts and identified three future example actions. |
+| [BUILDING 2026-09-20 DemoSetup](ActivityLog/BUILDING_2026-09-20_DemoSetup.md) | BUILDING | current | The demonstration uses neutral IDs and entirely invented data across all topic folders. |
+| [BUILDING Management](BuildingManagement/BUILDING_Management.md) | BUILDING | current | A fictional manager handles common property; monthly owner charges are shown for all seven units. |
+| [BUILDING Roles](Contacts/BUILDING_Roles.md) | BUILDING | current | The example names responsibilities without exposing people, phone numbers, or email addresses. |
+| [U05 MoveIn](Handovers/U05_MoveIn.md) | U05 | current | A fictional U05 move-in record shows keys, meters, condition, and document linkage. |
+| [BUILDING Insurance](Insurance/BUILDING_Insurance.md) | BUILDING | current | A fictional building policy illustrates coverage, premium, responsibility, and renewal tracking. |
+| [U01 Lease](Leases/U01_Lease.md) | U01 | current | The synthetic current monthly base rent is 640 EUR, plus 110 EUR operating-cost advance. |
+| [U02 Lease](Leases/U02_Lease.md) | U02 | current | The synthetic current monthly base rent is 750 EUR, plus 130 EUR operating-cost advance. |
+| [U03 Lease](Leases/U03_Lease.md) | U03 | current | The synthetic current monthly base rent is 830 EUR, plus 145 EUR operating-cost advance. |
+| [U04 Lease](Leases/U04_Lease.md) | U04 | current | The synthetic current monthly base rent is 960 EUR, plus 160 EUR operating-cost advance. |
+| [U05 Lease](Leases/U05_Lease.md) | U05 | current | The synthetic current monthly base rent is 1,050 EUR, plus 175 EUR operating-cost advance. |
+| [U06 Lease](Leases/U06_Lease.md) | U06 | current | The synthetic current monthly base rent is 1,180 EUR, plus 190 EUR operating-cost advance. |
+| [U07 Lease](Leases/U07_Lease.md) | U07 | current | The synthetic current monthly base rent is 1,320 EUR, plus 220 EUR operating-cost advance. |
+| [U01 Loan](Loans/U01_Loan.md) | U01 | current | A fictional loan for U01 has a 73,500 EUR example balance as of 2026-08-31. |
+| [U03 Loan](Loans/U03_Loan.md) | U03 | current | A fictional loan for U03 has a 101,000 EUR example balance as of 2026-08-31. |
+| [U05 Loan](Loans/U05_Loan.md) | U05 | current | A fictional loan for U05 has a 137,000 EUR example balance as of 2026-08-31. |
+| [BUILDING DocumentMap](Miscellaneous/BUILDING_DocumentMap.md) | BUILDING | current | This map shows document categories and note links without publishing a storage URL or originals. |
+| [U01 OperatingCosts 2025](OperatingCosts/U01_OperatingCosts_2025.md) | U01 | current | The fictional 2025 reconciliation for U01 results in 60 EUR credit. |
+| [U02 OperatingCosts 2025](OperatingCosts/U02_OperatingCosts_2025.md) | U02 | current | The fictional 2025 reconciliation for U02 results in 90 EUR payment due. |
+| [U03 OperatingCosts 2025](OperatingCosts/U03_OperatingCosts_2025.md) | U03 | current | The fictional 2025 reconciliation for U03 results in 0 EUR settled. |
+| [U04 OperatingCosts 2025](OperatingCosts/U04_OperatingCosts_2025.md) | U04 | current | The fictional 2025 reconciliation for U04 results in 45 EUR credit. |
+| [U05 OperatingCosts 2025](OperatingCosts/U05_OperatingCosts_2025.md) | U05 | current | The fictional 2025 reconciliation for U05 results in 120 EUR payment due. |
+| [U06 OperatingCosts 2025](OperatingCosts/U06_OperatingCosts_2025.md) | U06 | current | The fictional 2025 reconciliation for U06 results in 30 EUR credit. |
+| [U07 OperatingCosts 2025](OperatingCosts/U07_OperatingCosts_2025.md) | U07 | current | The fictional 2025 reconciliation for U07 results in 75 EUR payment due. |
+| [BUILDING AnnualCosts](Playbooks/BUILDING_AnnualCosts.md) | BUILDING | current | A repeatable process turns private source bills into one annual summary per unit. |
+| [BUILDING RentReview](Playbooks/BUILDING_RentReview.md) | BUILDING | current | A staged review keeps calculations separate from legal validation and an effective rent change. |
+| [BUILDING TenantTurnover](Playbooks/BUILDING_TenantTurnover.md) | BUILDING | current | A repeatable checklist links the tenancy, lease, handover, and index after a move-out. |
+| [BUILDING Profile](Properties/BUILDING_Profile.md) | BUILDING | current | One imaginary residential building contains the seven sample rental units. |
+| [U01 Profile](Properties/U01_Profile.md) | U01 | current | U01 is a fictional 1-room rental unit with 38 m². |
+| [U02 Profile](Properties/U02_Profile.md) | U02 | current | U02 is a fictional 2-room rental unit with 46 m². |
+| [U03 Profile](Properties/U03_Profile.md) | U03 | current | U03 is a fictional 2-room rental unit with 52 m². |
+| [U04 Profile](Properties/U04_Profile.md) | U04 | current | U04 is a fictional 3-room rental unit with 59 m². |
+| [U05 Profile](Properties/U05_Profile.md) | U05 | current | U05 is a fictional 3-room rental unit with 63 m². |
+| [U06 Profile](Properties/U06_Profile.md) | U06 | current | U06 is a fictional 3-room rental unit with 71 m². |
+| [U07 Profile](Properties/U07_Profile.md) | U07 | current | U07 is a fictional 4-room rental unit with 84 m². |
+| [U01 Purchase](Purchases/U01_Purchase.md) | U01 | current | The fictional U01 acquisition price is 128,000 EUR plus 10,240 EUR example acquisition costs. |
+| [U02 Purchase](Purchases/U02_Purchase.md) | U02 | current | The fictional U02 acquisition price is 149,000 EUR plus 11,920 EUR example acquisition costs. |
+| [U03 Purchase](Purchases/U03_Purchase.md) | U03 | current | The fictional U03 acquisition price is 171,000 EUR plus 13,680 EUR example acquisition costs. |
+| [U04 Purchase](Purchases/U04_Purchase.md) | U04 | current | The fictional U04 acquisition price is 194,000 EUR plus 15,520 EUR example acquisition costs. |
+| [U05 Purchase](Purchases/U05_Purchase.md) | U05 | current | The fictional U05 acquisition price is 213,000 EUR plus 17,040 EUR example acquisition costs. |
+| [U06 Purchase](Purchases/U06_Purchase.md) | U06 | current | The fictional U06 acquisition price is 238,000 EUR plus 19,040 EUR example acquisition costs. |
+| [U07 Purchase](Purchases/U07_Purchase.md) | U07 | current | The fictional U07 acquisition price is 281,000 EUR plus 22,480 EUR example acquisition costs. |
+| [U03 IndexReview](RentReviews/U03_IndexReview.md) | U03 | current | A fictional 4.0% index scenario would change 830.00 EUR to 863.20 EUR if valid and implemented. |
+| [U02 FaucetRepair](Repairs/U02_FaucetRepair.md) | U02 | current | A fictional faucet was replaced in U02; a follow-up check is scheduled. |
+| [U01 Tenant](Tenants/U01_Tenant.md) | U01 | current | Tenant Group U01 is a fictional label for 1 occupant(s). |
+| [U02 Tenant](Tenants/U02_Tenant.md) | U02 | current | Tenant Group U02 is a fictional label for 2 occupant(s). |
+| [U03 Tenant](Tenants/U03_Tenant.md) | U03 | current | Tenant Group U03 is a fictional label for 1 occupant(s). |
+| [U04 Tenant](Tenants/U04_Tenant.md) | U04 | current | Tenant Group U04 is a fictional label for 2 occupant(s). |
+| [U05 Tenant](Tenants/U05_Tenant.md) | U05 | current | Tenant Group U05 is a fictional label for 2 occupant(s). |
+| [U06 Tenant](Tenants/U06_Tenant.md) | U06 | current | Tenant Group U06 is a fictional label for 3 occupant(s). |
+| [U07 Tenant](Tenants/U07_Tenant.md) | U07 | current | Tenant Group U07 is a fictional label for 3 occupant(s). |

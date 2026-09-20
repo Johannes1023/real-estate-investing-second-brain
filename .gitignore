@@ -1,4 +1,4 @@
-# Lokale Arbeitsdaten und typische Anhänge dürfen nicht ins Beispiel-Repository.
+# Keep local documents and machine-specific files out of the demonstration.
 .DS_Store
 .obsidian/
 .env*
@@ -11,6 +11,5 @@
 *.docx
 *.xlsx
 private/
-privat/
-originale/
+originals/
 backups/
