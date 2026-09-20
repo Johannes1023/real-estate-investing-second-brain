@@ -57,7 +57,7 @@ These are instructions for the AI assistant, not executable scripts. Changes mad
 
 ## Reuse it safely
 
-1. Copy the structure into a **separate private working folder**. Keep this repository as a synthetic reference.
+1. On GitHub, choose **Use this template** to create your own repository, or copy the structure into a **separate private working folder**. Keep this repository as a synthetic reference. Choose private visibility for real working data.
 2. Replace every synthetic ID and value in the private copy, or remove example notes and start from the category templates. Review `AGENTS.md` there and adapt its demo-only rules to your own privacy policy.
 3. Store original contracts, scans, photos, IDs, account details, and contact information outside the AI-readable folder. Use private document references instead of embedding originals.
 4. Review what your AI provider may receive before connecting a folder. Avoid simultaneous edits to the same note; `Update` checks for conflict copies.
